@@ -80,9 +80,6 @@ commands = {
 }
 
 
-# ✅ Single answer() handles both
-
-
 def answer(command: str):
     for key in commands:
         if key in command:
